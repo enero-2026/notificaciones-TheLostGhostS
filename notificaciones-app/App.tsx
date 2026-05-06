@@ -54,8 +54,11 @@ export default function App() {
       <Text style={{ fontSize: 20 }}>
         Contador: {contador}
       </Text>
+      
       <Button title="Incrementar" onPress={incrementar} />
+
       <Button title="Pedir permiso" onPress={pedirPermiso} />
+
       <Button title="Enviar notificación" onPress={enviarNotificacion} />
     </View>
     
